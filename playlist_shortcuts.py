@@ -145,7 +145,7 @@ class KDEShortcut:
         with path.open("x", encoding="utf-8") as output:
             output.write(
                 "[Desktop Entry]\nType=Application\n"
-                "Name=Quod Libet: Add to Playlist\nIcon=list-add\n"
+                "Name=Quod Libet: Add to Playlist\nIcon=favorite\n"
                 f"Exec={command}\nTerminal=false\nStartupNotify=false\n"
                 "X-KDE-GlobalAccel-CommandShortcut=true\n"
             )
@@ -323,7 +323,7 @@ class PlaylistShortcutsPlugin(EventPlugin):
     PLUGIN_ID = "playlist_shortcuts"
     PLUGIN_NAME = _("Add Current Track to Playlist")
     PLUGIN_DESC = _("Add the current track to playlists using global shortcuts. ")
-    PLUGIN_ICON = "list-add"
+    PLUGIN_ICON = "favorite"
 
     def PluginPreferences(self, parent):
         return ShortcutPreferences(app.library.playlists)

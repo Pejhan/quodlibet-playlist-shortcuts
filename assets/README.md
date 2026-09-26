@@ -1,0 +1,1 @@
+`favorite.svg` is the unmodified 22px `favorite` icon from [KDE Breeze](https://invent.kde.org/frameworks/breeze-icons), licensed under LGPL-3.0-or-later. See [COPYRIGHT](COPYRIGHT), [LGPL-3.0.txt](LGPL-3.0.txt), and [GPL-3.0.txt](GPL-3.0.txt).
